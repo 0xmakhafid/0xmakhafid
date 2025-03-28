@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Hafid!
+# 👋 Hi, I'm Khafid!
 
 🚀 Passionate about **Web Development, Data Analyst, and DevOps**  
 💡 Always learning new technologies & building cool projects  
@@ -11,7 +11,7 @@
 - ☁️ **DevOps:** Docker, Kubernetes, CI/CD  
 
 ## 📊 GitHub Stats
-![Hafid's GitHub Stats](https://github-readme-stats.vercel.app/api?username=heikhafid&show_icons=true&theme=radical)
+![Hafid's GitHub Stats](https://github-readme-stats.vercel.app/api?username=0xmakhafid&show_icons=true&theme=radical)
 
 ## ⏳ Last Update  
 🕒 **Updated on:** _(akan diperbarui otomatis)_
