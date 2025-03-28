@@ -41,5 +41,4 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git add README.md
           git commit -m "Auto update: $(date)" || echo "No changes to commit"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/0xmakhafid/0xmakhafid.git
-
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
