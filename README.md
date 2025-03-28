@@ -10,9 +10,6 @@
 - 🏗️ **Backend:** Node.js, Express, FastAPI  
 - ☁️ **DevOps:** Docker, Kubernetes, CI/CD  
 
-## 📊 GitHub Stats
-![Hafid's GitHub Stats](https://github-readme-stats.vercel.app/api?username=0xmakhafid&show_icons=true&theme=radical)
-
 ## ⏳ Last Update  
 🕒 **Updated on:** _(akan diperbarui otomatis)_
 
