@@ -1,0 +1,45 @@
+name: Update GitHub Profile README
+
+on:
+  schedule:
+    - cron: "*/1 * * * *"  # Update setiap 30 menit
+  workflow_dispatch:  # Bisa dijalankan manual
+
+jobs:
+  update_profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Update README
+        run: |
+          echo "# 👋 Hi, I'm Khafid!" > README.md
+          echo "" >> README.md
+          echo "🚀 Passionate about **Web Development, Data Analyst, and DevOps**" >> README.md
+          echo "💡 Always learning new technologies & building cool projects" >> README.md
+          echo "🌍 Check out my portfolio: [heikhafid.my.id](https://heikhafid.my.id)" >> README.md
+          echo "" >> README.md
+          echo "## 🔥 Tech Stack" >> README.md
+          echo "- 🛠️ **Languages:** JavaScript, Python, PHP" >> README.md
+          echo "- 🌐 **Web:** React, Next.js, TailwindCSS" >> README.md
+          echo "- 🏗️ **Backend:** Node.js, Express, FastAPI" >> README.md
+          echo "- ☁️ **DevOps:** Docker, Kubernetes, CI/CD" >> README.md
+          echo "" >> README.md
+          echo "## 📊 GitHub Stats" >> README.md
+          echo "![Hafid's GitHub Stats](https://github-readme-stats.vercel.app/api?username=0xmakhafid&show_icons=true&theme=radical)" >> README.md
+          echo "" >> README.md
+          echo "## ⏳ Last Update" >> README.md
+          echo "🕒 **Updated on:** $(date)" >> README.md
+          echo "" >> README.md
+          echo "---" >> README.md
+          echo "💬 **Let's connect!**" >> README.md
+          echo "📩 Reach me via [heikhafid.my.id](https://heikhafid.my.id)" >> README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Auto update: $(date)" || echo "No changes to commit"
+          git push
