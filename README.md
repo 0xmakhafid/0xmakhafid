@@ -1,16 +1,21 @@
-## Hi there 👋
+# 👋 Hi, I'm Hafid!
 
-<!--
-**0xmakhafid/0xmakhafid** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 Passionate about **Web Development, Data Analyst, and DevOps**  
+💡 Always learning new technologies & building cool projects  
+🌍 Check out my portfolio: [heikhafid.my.id](https://heikhafid.my.id)  
 
-Here are some ideas to get you started:
+## 🔥 Tech Stack
+- 🛠️ **Languages:** JavaScript, Python, PHP  
+- 🌐 **Web:** React, Next.js, TailwindCSS  
+- 🏗️ **Backend:** Node.js, Express, FastAPI  
+- ☁️ **DevOps:** Docker, Kubernetes, CI/CD  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📊 GitHub Stats
+![Hafid's GitHub Stats](https://github-readme-stats.vercel.app/api?username=heikhafid&show_icons=true&theme=radical)
+
+## ⏳ Last Update  
+🕒 **Updated on:** _(akan diperbarui otomatis)_
+
+---
+💬 **Let's connect!**  
+📩 Reach me via [heikhafid.my.id](https://heikhafid.my.id) 
