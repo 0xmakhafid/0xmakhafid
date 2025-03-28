@@ -26,9 +26,6 @@ jobs:
           echo "- 🏗️ **Backend:** Node.js, Express, FastAPI" >> README.md
           echo "- ☁️ **DevOps:** Docker, Kubernetes, CI/CD" >> README.md
           echo "" >> README.md
-          echo "## 📊 GitHub Stats" >> README.md
-          echo "![Hafid's GitHub Stats](https://github-readme-stats.vercel.app/api?username=0xmakhafid&show_icons=true&theme=radical)" >> README.md
-          echo "" >> README.md
           echo "## ⏳ Last Update" >> README.md
           echo "🕒 **Updated on:** $(date)" >> README.md
           echo "" >> README.md
