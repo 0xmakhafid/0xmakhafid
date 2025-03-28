@@ -23,7 +23,7 @@ jobs:
           echo "## 🔥 Tech Stack" >> README.md
           echo "- 🛠️ **Languages:** JavaScript, Python, PHP" >> README.md
           echo "- 🌐 **Web:** React, Next.js, TailwindCSS" >> README.md
-          echo "- 🏗️ **Backend:** Node.js, Express, FastAPI" >> README.md
+          echo "- 🏗️ **Backend:** Node.js, Express, API" >> README.md
           echo "- ☁️ **DevOps:** Docker, Kubernetes, CI/CD" >> README.md
           echo "" >> README.md
           echo "## ⏳ Last Update" >> README.md
@@ -34,9 +34,12 @@ jobs:
           echo "📩 Reach me via [heikhafid.my.id](https://heikhafid.my.id)" >> README.md
 
       - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add README.md
           git commit -m "Auto update: $(date)" || echo "No changes to commit"
-          git push
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/0xmakhafid/0xmakhafid.git
+
